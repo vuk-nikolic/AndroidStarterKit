@@ -7,13 +7,13 @@ import android.os.Vibrator;
 import android.widget.Toast;
 
 /**
- * MusicStoppedBroadcastReceiver is listening for Constants.SONG_FINISHED intent.
+ * MusicStatusBroadcastReceiver is listening for Constants.SONG_FINISHED intent.
  * When it gets it, the phones starts vibrating.
  * 
  * @author vuknikolic
  *
  */
-public class MusicStoppedBroadcastReceiver extends BroadcastReceiver {
+public class MusicStatusBroadcastReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {

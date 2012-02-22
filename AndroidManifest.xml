@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <service android:name="MusicPlayerService"></service>
-        <receiver android:name="MusicStoppedBroadcastReceiver">
+        <receiver android:name=".MusicStatusBroadcastReceiver">
             <intent-filter>
 				<action android:name="com.androidstarterkit.SONG_START"></action>
 				<action android:name="com.androidstarterkit.SONG_FINISHED"></action>
