@@ -1,0 +1,9 @@
+AndroidStarterKit is a sample android application. The point is to show major android components:
+	1. Activity
+	2. Service
+	3. Intent
+	4. Broadcast receiver
+	5. Content resolver
+	6. XML layouts
+Music playback is used as an example.
+	
