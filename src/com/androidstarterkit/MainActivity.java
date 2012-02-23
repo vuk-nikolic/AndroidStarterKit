@@ -40,4 +40,9 @@ public class MainActivity extends Activity {
     public void onStopMusicPlayerService(View v) {
 		stopService(new Intent(this, MusicPlayerService.class));
 	}
+    
+    public void onMediaLibraryButton(View v) {
+    	Intent intent = new Intent(this, MediaLibraryActivity.class);
+    	startActivity(intent);
+    }
 }

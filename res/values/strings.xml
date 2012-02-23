@@ -5,4 +5,5 @@
     <string name="app_name">AndroidStarterKit</string>
     <string name="start_service">Start service</string>
     <string name="stop_service">Stop service</string>
+    <string name="media_library">Go to media library</string>
 </resources>

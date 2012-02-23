@@ -20,4 +20,12 @@
         android:layout_height="wrap_content"
         android:text="@string/stop_service"
         android:onClick="onStopMusicPlayerService" />
+
+    <Button
+        android:id="@+id/mediaLibraryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/media_library"
+        android:onClick="onMediaLibraryButton" />
+
 </LinearLayout>

@@ -20,13 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name="MusicPlayerService"></service>
+        <service android:name=".MusicPlayerService"></service>
         <receiver android:name=".MusicStatusBroadcastReceiver">
             <intent-filter>
 				<action android:name="com.androidstarterkit.SONG_START"></action>
 				<action android:name="com.androidstarterkit.SONG_FINISHED"></action>
 			</intent-filter>
         </receiver>
+        <activity android:name=".MediaLibraryActivity"></activity>
         
     </application>
     
